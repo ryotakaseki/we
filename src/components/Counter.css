@@ -1,0 +1,14 @@
+.counter-button {
+    background-color: #4CAF50; /* 緑色の背景 */
+    color: white; /* 白色の文字 */
+    padding: 15px 25px; /* 上下15px、左右25pxのパディング */
+    border: none; /* ボーダーなし */
+    border-radius: 8px; /* 角を丸くする */
+    cursor: pointer; /* ポインターを手の形にする */
+    font-size: 20px; /* フォントサイズを20pxに設定 */
+    transition: background-color 0.3s ease; /* 背景色の変化にアニメーションを追加 */
+}
+
+.counter-button:hover {
+    background-color: #45a049; /* ホバー時の背景色 */
+}

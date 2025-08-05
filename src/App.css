@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* 薄い水色の背景 */
+  display: flex;
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center; /* 垂直方向の中央揃え */
+  min-height: 100vh; /* ビューポートの高さ全体を使う */
+}
+
+.app-container {
+  padding: 30px; /* パディングを少し増やす */
+  max-width: 800px;
+  width: 90%; /* 幅を調整 */
+  background-color: #ffffff; /* 白い背景 */
+  border-radius: 12px; /* 角を丸くする */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 影を強調 */
+  text-align: center; /* テキストを中央揃え */
+}
+
+h1 {
+  color: #263238; /* 濃いグレー */
+  margin-bottom: 20px;
+  font-size: 2.5em; /* フォントサイズを大きく */
+}
+
+h2 {
+  color: #00796b; /* 緑がかった青 */
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+
+h3 {
+  color: #455a64; /* 中間のグレー */
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none; /* リストの点をなくす */
+  padding: 0;
+  margin: 20px 0;
+}
+
+li {
+  background-color: #e8f5e9; /* リストアイテムの背景色 */
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  color: #388e3c; /* 緑 */
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
